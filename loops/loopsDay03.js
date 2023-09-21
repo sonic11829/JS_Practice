@@ -24,6 +24,8 @@ display2 = function(arr){
 display2(trees)
 display2(evenNumbers)
 
+/* display3 function is being used to display only the element of an array */
+
 display3 = function(arr){
   for(let i = 0; i < arr.length; i++){
     console.log(`${arr[i]} is an element of this array`)
