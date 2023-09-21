@@ -23,3 +23,12 @@ display2 = function(arr){
 
 display2(trees)
 display2(evenNumbers)
+
+display3 = function(arr){
+  for(let i = 0; i < arr.length; i++){
+    console.log(`${arr[i]} is an element of this array`)
+  }
+}
+
+display3(trees)
+display3(evenNumbers)
