@@ -8,3 +8,12 @@ add = function(arr){
 }
 
 add(integer)
+
+subtract = function(arr){
+  for(let i = arr.length; i >= 0; i--){
+    total = i+1 - arr[i]
+    console.log(total)
+  }
+}
+
+subtract(integer)
