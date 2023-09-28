@@ -1,4 +1,4 @@
-
+/* I made the 3rd array vertical to show it can be done this way also. */
 const Jedi = ['Master Yoda', 'Master Obi-Wan', 'Master Mace', 'Master Luke', 'Anikin', 'Ahsoka', 'Master Qui-Gon']
 const Sith = ['Darth Sidius', 'Darth Vader', 'Count Duku', 'Darth Maul', 'Savage Opress']
 const Inquisitors = [
@@ -17,6 +17,9 @@ const Inquisitors = [
   'Marrok', 
 ]
 
+/* Something cool to do would be to make all of these lightsaber users have a specific
+  colored lightsaber and determin if they are sith, jedi, or neither and display a certain
+  message when passed through a function. */
 display = function(arr){
   for(let i = 0; i < arr.length; i++){
     console.log(`${arr[i]} can use a lightsaber!`)
