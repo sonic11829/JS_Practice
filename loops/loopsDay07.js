@@ -7,6 +7,7 @@ const smg = ["MP5", "AK-47u", "P90", "Skorpion", "Mini-Uzi"]
 const handgun = ["X16", "1911", ".357", "M19", ".50 GS", "Renetti", "Sykov"]
 const launcher = ["PILA", "Strela-P", "JOKR", "RPG-7"]
 
+/* primaryWeapon uses == and || to show if array is equal to ___ OR ___ then console.log("not primary weapon") */
 primaryWeapon = function(array){
   if(array == handgun || array == launcher){
     console.log("This is not a primary weapon!")
@@ -17,6 +18,7 @@ primaryWeapon = function(array){
   }
 }
 
+/* secondaryWeapon uses !== and && to show if array is NOT equal to ___ AND ___ then console.log("not secondary weapon") */
 secondaryWeapon = function(arr){
   if(arr !== handgun && arr !== launcher){
     console.log("This is not a secondary weapon!")
