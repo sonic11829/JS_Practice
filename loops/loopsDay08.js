@@ -7,7 +7,7 @@ const coat = ["jacket", "parka", "vest", "life jacket"]
 
 outfitHat = function(arr){
   if(arr !== hat){
-    return 0
+    console.log("not a hat")
   } else {
     console.log(arr)
   }
@@ -15,7 +15,7 @@ outfitHat = function(arr){
 
 outfitShirt = function(arr){
   if(arr !== shirt){
-    return 0
+    console.log("not a shirt")
   } else {
     console.log(arr)
   }
@@ -23,7 +23,7 @@ outfitShirt = function(arr){
 
 outfitPant = function(arr){
   if(arr !== pant){
-    return 0
+    console.log("not a pant")
   } else {
     console.log(arr)
   }
@@ -31,7 +31,7 @@ outfitPant = function(arr){
 
 outfitShoes = function(arr){
   if(arr !== shoes){
-    return 0
+    console.log("not shoes")
   } else {
     console.log(arr)
   }
@@ -39,8 +39,20 @@ outfitShoes = function(arr){
 
 outfitCoat = function(arr){
   if(arr !== coat){
-    return 0
+    console.log("not a coat")
   } else {
     console.log(arr)
   }
 }
+
+outfitHat(hat)
+outfitShirt(shirt)
+outfitPant(pant)
+outfitShoes(shoes)
+outfitCoat(coat)
+
+outfitHat(shirt)
+outfitShirt(pant)
+outfitPant(shoes)
+outfitShoes(coat)
+outfitCoat(hat)
